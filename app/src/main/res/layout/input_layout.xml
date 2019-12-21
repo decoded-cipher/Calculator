@@ -9,8 +9,10 @@
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:gravity="end"
+        android:layout_marginTop="5dp"
         android:textColor="@color/White"
         android:background="@color/Black"
+        android:fontFamily="@font/montserrat"
         android:text="45444643"
         android:padding="10dp"/>
 
@@ -18,7 +20,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="end"
-        android:textSize="60sp"
+        android:textSize="60dp"
+        android:fontFamily="@font/montserrat"
+        android:layout_marginBottom="60dp"
         android:textColor="@color/White"
         android:background="@color/Black"
         android:text="45444643"
