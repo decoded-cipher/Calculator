@@ -12,7 +12,7 @@
         <Button
             android:id="@+id/btnClear"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:layout_row="0"
             android:layout_column="0"
             android:layout_columnWeight="1"
@@ -25,7 +25,7 @@
         <Button
             android:id="@+id/btnBracket"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="( )"
             android:textSize="25sp"
             android:fontFamily="@font/montserrat"
@@ -38,7 +38,7 @@
         <Button
             android:id="@+id/btnPercentage"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="%"
             android:fontFamily="@font/montserrat"
             android:layout_columnWeight="1"
@@ -51,7 +51,7 @@
         <Button
             android:id="@+id/btnDivide"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="/"
             android:fontFamily="@font/montserrat"
             android:textSize="25sp"
@@ -66,7 +66,7 @@
         <Button
             android:id="@+id/btn7"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="7"
             android:fontFamily="@font/montserrat"
             android:textSize="25sp"
@@ -79,7 +79,7 @@
         <Button
             android:id="@+id/btn8"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="8"
             android:fontFamily="@font/montserrat"
             android:textSize="25sp"
@@ -92,7 +92,7 @@
         <Button
             android:id="@+id/btn9"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="9"
             android:fontFamily="@font/montserrat"
             android:layout_columnWeight="1"
@@ -105,7 +105,7 @@
         <Button
             android:id="@+id/btnMultiply"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="*"
             android:fontFamily="@font/montserrat"
             android:textSize="25sp"
@@ -120,7 +120,7 @@
         <Button
             android:id="@+id/btn4"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="4"
             android:fontFamily="@font/montserrat"
             android:textSize="25sp"
@@ -133,7 +133,7 @@
         <Button
             android:id="@+id/btn5"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="5"
             android:fontFamily="@font/montserrat"
             android:textSize="25sp"
@@ -146,7 +146,7 @@
         <Button
             android:id="@+id/btn6"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="6"
             android:fontFamily="@font/montserrat"
             android:layout_columnWeight="1"
@@ -159,7 +159,7 @@
         <Button
             android:id="@+id/btnSubtract"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="-"
             android:fontFamily="@font/montserrat"
             android:textSize="25sp"
@@ -174,7 +174,7 @@
         <Button
             android:id="@+id/btn1"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="1"
             android:fontFamily="@font/montserrat"
             android:textSize="25sp"
@@ -187,7 +187,7 @@
         <Button
             android:id="@+id/btn2"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="2"
             android:fontFamily="@font/montserrat"
             android:textSize="25sp"
@@ -200,7 +200,7 @@
         <Button
             android:id="@+id/btn3"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="3"
             android:fontFamily="@font/montserrat"
             android:layout_columnWeight="1"
@@ -213,7 +213,7 @@
         <Button
             android:id="@+id/btnAdd"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="+"
             android:fontFamily="@font/montserrat"
             android:textSize="25sp"
@@ -228,7 +228,7 @@
         <Button
             android:id="@+id/btn0"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="0"
             android:fontFamily="@font/montserrat"
             android:textSize="25sp"
@@ -241,7 +241,7 @@
         <Button
             android:id="@+id/btnDot"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="."
             android:fontFamily="@font/montserrat"
             android:layout_columnWeight="1"
@@ -255,7 +255,7 @@
         <Button
             android:id="@+id/btnEqual"
             android:layout_width="wrap_content"
-            android:layout_height="100dp"
+            android:layout_height="95dp"
             android:text="="
             android:fontFamily="@font/montserrat"
             android:textSize="25sp"
