@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import org.mozilla.javascript.Scriptable;
+
 public class MainActivity extends AppCompatActivity {
 
     Button btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9,
@@ -203,10 +205,23 @@ public class MainActivity extends AppCompatActivity {
         btnEqual.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                process = tvInput.getText().toString();
+
                 process = process.replaceAll("x","*");
                 process = process.replaceAll("%", "/100");
 
+                Context.rhino = Context.enter();
+                rhino.setOptimizationLevel(-1);
+                String finalResult = "";
 
+                try{
+                    Scriptable scriptable = rhino.initStandardObjects();
+                    finalResult = rhino.evaluateString(scope,process).teString();
+                } catch (Exception e){
+                    finalResult = "0";
+                }
+            tvOutput.setText(finalResult);
             }
         });
     }
